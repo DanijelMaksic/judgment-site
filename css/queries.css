@@ -1,0 +1,712 @@
+/* ----------------------------- */
+/*  BELOW 1344px (Small laptops)  */
+/* ----------------------------- */
+
+@media (max-width: 84em) {
+}
+
+/* ----------------------------- */
+/*  BELOW 1248px (Landscape tablets)  */
+/* ----------------------------- */
+
+@media (max-width: 78em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .modal-close {
+        transform: translate(94rem, 1rem);
+    }
+}
+
+/* ----------------------------- */
+/*  BELOW 960px (Tablets)  */
+/* ----------------------------- */
+
+@media (max-width: 60em) {
+    html {
+        font-size: 50%;
+    }
+
+    /* containers */
+
+    .container {
+        max-width: 90rem;
+    }
+
+    .container--sm {
+        max-width: 90rem;
+    }
+
+    .container--xsm {
+        max-width: 90rem;
+    }
+
+    .container--very-sm {
+        max-width: 80rem;
+    }
+
+    /* background images */
+
+    .introduction-section {
+        height: 70rem;
+    }
+
+    .story-section {
+        height: 70rem;
+    }
+
+    .exploration-section {
+        height: 70rem;
+    }
+
+    .new-release-section {
+        height: 70rem;
+    }
+
+    /* margins */
+
+    .margin-top-xl {
+        padding-top: 9.6rem;
+    }
+
+    /* fonts  */
+
+    .paragraph-primary {
+        font-size: 2rem;
+    }
+
+    .heading-primary {
+        font-size: 3.2rem;
+    }
+
+    .heading-secondary {
+        font-size: 2.4rem;
+    }
+
+    .heading-tertiary {
+        font-size: 1.6rem;
+    }
+
+    /* yagami section */
+
+    .cast-yagami-section {
+        height: 85rem;
+    }
+
+    .yagami-model {
+        height: 85rem;
+        padding-top: 9.6rem;
+    }
+
+    /* absolutes */
+
+    .heading-absolute-1 {
+        transform: translate(24rem, -26.7rem);
+    }
+
+    .heading-absolute-2 {
+        transform: translate(24rem, -26.7rem);
+    }
+
+    .deluxe {
+        transform: translate(13rem, -2.5rem);
+    }
+
+    /* mobile nav */
+
+    .btn-mobile-nav {
+        display: block;
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 1.6rem;
+        padding-right: 2.6rem;
+
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        position: fixed;
+        z-index: 9999;
+        border-bottom-right-radius: 26px;
+    }
+
+    .btn-mobile-nav p {
+        font-size: 2.6rem;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .nav-open .btn-mobile-nav p {
+        display: none;
+    }
+
+    .nav-open .btn-mobile-nav {
+        position: fixed;
+        background: none;
+        box-shadow: none;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: none;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        gap: 4.8rem;
+        transition: all 0.5s ease-out;
+        transform: translateX(-100%);
+
+        /* hide nav */
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .nav-open .nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .nav-open .icon-mobile-nav[name='close-outline'] {
+        display: block;
+        color: #fff;
+        z-index: 9999;
+    }
+
+    .nav-open .icon-mobile-nav[name='menu-outline'] {
+        display: none;
+    }
+
+    .nav-text {
+        flex-direction: column;
+        align-items: center;
+        font-size: 4.4rem;
+        gap: 4.8rem;
+    }
+
+    .nav-a {
+        color: #fff;
+    }
+
+    .nav-a:hover {
+        text-shadow: none;
+    }
+
+    .nav-svg-container {
+        border: none;
+        padding: 0;
+        gap: 2.4rem;
+    }
+
+    .nav-svg {
+        font-size: 6.4rem;
+        color: #dee2e6;
+    }
+
+    .nav img {
+        width: 220px;
+    }
+
+    .hero-section img {
+        margin: 0;
+    }
+
+    /* other */
+
+    .cta-img-box {
+        height: 60rem;
+    }
+
+    .trial-form {
+        padding-top: 3.2rem;
+    }
+
+    .hero-section img {
+        margin-bottom: -5px;
+    }
+
+    .list {
+        gap: 3rem;
+    }
+
+    .modal-close {
+        width: 14rem;
+        height: 14rem;
+        transform: translate(82rem, 2rem);
+    }
+}
+
+/* ----------------------------- */
+/*  BELOW 704px (Small Tablets)  */
+/* ----------------------------- */
+
+@media (max-width: 44em) {
+    html {
+        font-size: 40%;
+    }
+
+    .platforms img {
+        width: 140%;
+    }
+
+    .new-release-section img {
+        width: 80%;
+    }
+
+    /* absolutes */
+
+    .heading-absolute-1 {
+        transform: translate(22.5rem, -26.7rem);
+    }
+
+    .heading-absolute-2 {
+        transform: translate(22.5rem, -26.7rem);
+    }
+
+    .modal-close {
+        width: 16rem;
+        height: 16rem;
+        transform: translate(76rem, 2rem);
+    }
+}
+
+/* ----------------------------- */
+/*  BELOW 544px (Phones)  */
+/* ----------------------------- */
+
+@media (max-width: 34em) {
+    html {
+        font-size: 38%;
+    }
+
+    .grid-2-cols {
+        grid-template-columns: 1fr;
+    }
+
+    /* containers */
+
+    .container {
+        max-width: 70rem;
+    }
+
+    .container--sm {
+        max-width: 70rem;
+    }
+
+    .container--xsm {
+        max-width: 75rem;
+    }
+
+    .container--very-sm {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    /* background images */
+
+    .introduction-section {
+        height: 80rem;
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.4),
+                rgb(0, 0, 0)
+            ),
+            url(../img/introduction-bg.jpg);
+    }
+
+    .story-section {
+        height: 90rem;
+        background-position-x: 60%;
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.7)
+            ),
+            url(../img/story-bg.jpg);
+    }
+
+    .exploration-section {
+        height: 110rem;
+        background-image: linear-gradient(
+                to left,
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.7)
+            ),
+            url(../img/city-bg.jpg);
+    }
+
+    .new-release-section {
+        height: 140rem;
+        background-image: linear-gradient(
+                to left,
+                rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.9)
+            ),
+            url(../img/yokohama-bg.jpg);
+    }
+
+    .kaito-bg {
+        height: 75rem;
+        background-image: linear-gradient(
+                to left,
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.7)
+            ),
+            url(../img/cast/kaito-bg.jpg);
+    }
+
+    .matsugane-bg {
+        height: 75rem;
+        background-position: 80%;
+        background-image: linear-gradient(
+                to right,
+                rgb(0, 0, 0),
+                rgba(0, 0, 0, 0.7)
+            ),
+            url(../img/cast/matsugane-bg.jpg);
+    }
+
+    .hamura-bg {
+        height: 75rem;
+        background-image: linear-gradient(
+                to left,
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.7)
+            ),
+            url(../img/cast/hamura-bg.jpg);
+    }
+
+    .hero-section img {
+        width: 208%;
+    }
+
+    /* margins */
+
+    .margin-top-xl {
+        padding-top: 4.8rem;
+    }
+
+    .margin-top-lg {
+        padding-top: 3.2rem;
+    }
+
+    .margin-top-md-3 {
+        padding-top: 3.2rem;
+    }
+
+    .margin-bottom-lg {
+        padding-bottom: 4.8rem;
+    }
+
+    .gap-fix {
+        column-gap: 6.4rem;
+    }
+
+    /* fonts  */
+
+    .paragraph-primary {
+        font-size: 3.4rem;
+    }
+
+    .heading-primary {
+        font-size: 6.4rem;
+    }
+
+    .heading-secondary {
+        font-size: 4.8rem;
+    }
+
+    .heading-tertiary {
+        font-size: 3rem;
+    }
+
+    /* absolutes */
+
+    .heading-absolute-1 {
+        transform: translate(17rem, -52rem);
+        padding: 1.6rem 4rem;
+        font-size: 3.6rem;
+    }
+
+    .heading-absolute-2 {
+        transform: translate(17rem, -52rem);
+        padding: 1.6rem 4rem;
+        font-size: 3.6rem;
+    }
+
+    .deluxe {
+        transform: translate(8rem, -3.2rem);
+        padding: 1.2rem 3rem;
+        font-size: 2.6rem;
+    }
+
+    /* platforms */
+
+    .platforms-section p {
+        padding-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .platforms {
+        gap: 9rem;
+        padding: 1rem 0;
+    }
+
+    .platforms a:link,
+    a:visited {
+        width: 22%;
+        padding-right: 3rem;
+    }
+
+    /* features */
+
+    .features-section {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .features-section h3 {
+        font-size: 4.8rem;
+        padding-bottom: 2rem;
+    }
+
+    .features-box {
+        gap: 4.8rem;
+    }
+
+    /* yagami section */
+
+    .cast-yagami-section {
+        height: 145rem;
+    }
+
+    .cast-yagami-section p {
+        font-size: 3.6rem;
+    }
+
+    .img-wrapper {
+        width: 100%;
+    }
+
+    .yagami-model {
+        display: none;
+    }
+
+    .carousel-arrow {
+        font-size: 12.6rem;
+    }
+
+    .dots {
+        gap: 4.8rem;
+        padding-top: 2rem;
+    }
+
+    .dot {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* battle */
+
+    .battle-1 {
+        padding: 4.8rem 0;
+        padding-top: 6.4rem;
+    }
+
+    .battle-2 {
+        padding: 4.8rem 0;
+        padding-top: 6.4rem;
+    }
+
+    /* editions */
+
+    .editions {
+        display: flex;
+    }
+
+    .list {
+        padding: 2.6rem 2.6rem 1.6rem 2.6rem;
+        letter-spacing: 0.8px;
+    }
+
+    .list-item span {
+        font-size: 3rem;
+    }
+
+    .list-icon {
+        font-size: 3rem;
+    }
+
+    .btn:link {
+        padding: 3rem 3rem;
+        font-size: 4.4rem;
+    }
+
+    .price {
+        font-size: 4.4rem;
+    }
+
+    .price span {
+        font-size: 8.6rem;
+    }
+
+    /* free trial */
+
+    .free-trial-section {
+        padding: 6.4rem 0;
+    }
+
+    .cta-img-box {
+        height: 40rem;
+        background-position-y: 14%;
+    }
+
+    .trial-form {
+        gap: 3rem;
+    }
+
+    .trial-form label {
+        padding-bottom: 2rem;
+        font-size: 3rem;
+    }
+
+    .trial-form input,
+    select {
+        padding: 2rem 4rem;
+        font-size: 2.6rem;
+    }
+
+    .download-btn {
+        margin-top: 6rem;
+    }
+
+    .download-btn button {
+        padding: 3rem 8rem;
+        font-size: 3.6rem;
+    }
+
+    /* new release */
+
+    .new-release-section img {
+        width: 55%;
+    }
+
+    .pre-order-btn {
+        padding-top: 4.8rem;
+        padding-bottom: 4.8rem;
+    }
+
+    .pre-order-btn button {
+        padding: 2.6rem 8rem;
+        font-size: 4.8rem;
+    }
+
+    .disc-align {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .disc-align:last-child {
+        align-items: center;
+    }
+
+    /* other games */
+
+    .other-games-section {
+        padding: 6.4rem 0;
+    }
+
+    .other-games-section p {
+        font-size: 3rem;
+        padding-bottom: 3.2rem;
+    }
+
+    .games {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        row-gap: 3.2rem;
+    }
+
+    .games a:link,
+    a:visited {
+        width: 90%;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* footer */
+
+    .footer-left {
+        border: none;
+        border-bottom: 1px solid #999;
+        padding-bottom: 4.6rem;
+    }
+
+    .footer-svg {
+        font-size: 6.4rem;
+    }
+
+    .footer-text p {
+        font-size: 2.6rem;
+    }
+
+    /* other */
+
+    .last--link {
+        margin-top: 2rem;
+    }
+
+    .introduction-section {
+        padding-right: 3.2rem;
+    }
+
+    .features-section .grid-2-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .editions {
+        gap: 3rem;
+    }
+
+    .modal-close {
+        width: 16rem;
+        height: 16rem;
+        transform: translate(62rem, 1rem);
+    }
+
+    /* section gaps */
+
+    .features-section {
+        padding: 6.4rem 0;
+    }
+
+    .story-section {
+        padding-top: 3rem;
+    }
+
+    .battle-section {
+        padding: 6.4rem 0;
+    }
+
+    .editions-section {
+        padding: 6.4rem 0;
+    }
+
+    .footer-container {
+        padding: 6.4rem 0;
+    }
+}
+
+/* - Font sizes:
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */

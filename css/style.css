@@ -1,0 +1,644 @@
+/* -------------- */
+/*  HERO SECTION  */
+/* -------------- */
+
+.hero-section img {
+    width: 100%;
+    margin-top: 4.5rem;
+    margin-bottom: -5px;
+}
+
+/* ------------------- */
+/*  PLATFORMS SECTION  */
+/* ------------------- */
+
+.platforms-section {
+    display: flex;
+    flex-direction: column;
+    padding: 3.6rem;
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/pattern.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.platforms-section p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #adb5bd;
+
+    display: flex;
+    justify-content: center;
+}
+
+.platforms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.4rem;
+}
+
+.platforms a:link,
+a:visited {
+    width: 10%;
+    opacity: 60%;
+    transition: all 0.2s;
+}
+
+.platforms img {
+    width: 100%;
+}
+
+.platforms a:hover,
+a:active {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+/* ---------------------- */
+/*  INTRODUCTION SECTION  */
+/* ---------------------- */
+
+.introduction-section {
+    padding-left: 8rem;
+    height: 85rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+        url(../img/introduction-bg.jpg);
+    background-size: cover;
+}
+
+/* ------------------ */
+/*  FEATURES SECTION  */
+/* ------------------ */
+
+.features-section {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.features-section h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.features-section h2 {
+    text-align: center;
+    color: #343a40;
+}
+
+.features-section img {
+    width: 100%;
+}
+
+.features-links:link,
+.features-links:visited {
+    display: inline-block;
+    transition: all 0.3s;
+    border: 2px solid rgb(197, 203, 210);
+    text-decoration: none;
+    box-shadow: 0 0 20px #dee2e6;
+}
+
+.features-hover:hover,
+.features-hover:active {
+    transform: scale(0.97);
+    opacity: 90%;
+    box-shadow: none;
+}
+
+.border-bottom span {
+    border-bottom: 2px solid #868e96;
+    font-weight: 600;
+}
+
+/* --------------- */
+/*  STORY SECTION  */
+/* --------------- */
+
+.story-section {
+    height: 85rem;
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/story-bg.jpg);
+    background-size: cover;
+}
+
+/* --------------------- */
+/*  CAST SECTION YAGAMI  */
+/* --------------------- */
+
+.cast-yagami-section {
+    height: 95rem;
+    background-image: url(../img/white-noise.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.yagami-model {
+    justify-self: right;
+    height: 95rem;
+    filter: drop-shadow(-20px 20px 10px #868e96);
+}
+.cast-yagami-section h3 {
+    border-bottom: 2px solid #868e96;
+}
+
+.yagami-heading-fix {
+    padding-top: 6.4rem;
+}
+
+/* carousel */
+
+.carousel-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 16px #868e96;
+    width: 60%;
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.carousel-img:hover {
+    cursor: pointer;
+    opacity: 90%;
+    transition: 0.3s;
+}
+
+.carousel-arrow {
+    color: #343a40;
+    font-size: 6.2rem;
+}
+
+.arrow--left:hover,
+.arrow--left:active {
+    cursor: pointer;
+    transform: translateX(-8px);
+    transition: 0.3s;
+}
+
+.arrow--right:hover,
+.arrow--right:active {
+    cursor: pointer;
+    transform: translateX(8px);
+    transition: 0.3s;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.dots {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #dee2e6;
+    border: 3px solid #343a40;
+    border-radius: 200px;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+.current--dot {
+    background-color: #343a40;
+}
+
+/* --------------------- */
+/*  CAST SECTION OTHERS  */
+/* --------------------- */
+
+.cast-other-img {
+    width: 100%;
+}
+
+.kaito-bg {
+    height: 50rem;
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/cast/kaito-bg.jpg);
+    background-size: cover;
+}
+
+.matsugane-bg {
+    height: 50rem;
+    background-image: linear-gradient(
+            to right,
+            rgb(0, 0, 0),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/cast/matsugane-bg.jpg);
+    background-size: cover;
+}
+
+.hamura-bg {
+    height: 50rem;
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/cast/hamura-bg.jpg);
+    background-size: cover;
+}
+
+/* ---------------- */
+/*  BATTLE SECTION  */
+/* ---------------- */
+
+.battle-1 {
+    position: relative;
+}
+
+.heading-absolute-1 {
+    position: absolute;
+    transform: translate(33rem, -33rem);
+    background-color: #f03e3e;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.battle-2 {
+    position: relative;
+}
+
+.heading-absolute-2 {
+    position: absolute;
+    transform: translate(33rem, -33rem);
+    background-color: #4dabf7;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+/* --------------------- */
+/*  EXPLORATION SECTION  */
+/* --------------------- */
+
+.exploration-section {
+    height: 85rem;
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/city-bg.jpg);
+    background-size: cover;
+}
+
+/* ------------------ */
+/*  EDITIONS SECTION  */
+/* ------------------ */
+
+.standard-edition {
+    border: 2px solid #adb5bd;
+    box-shadow: 0 0 10px #dee2e6;
+}
+
+.deluxe-edition {
+    position: relative;
+    border: 2px solid #adb5bd;
+    box-shadow: 0 0 10px #dee2e6;
+}
+
+.list {
+    list-style: none;
+    padding: 2.6rem 4.8rem 1.6rem 4.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.list-item span {
+    font-size: 2.4rem;
+    padding-left: 1.6rem;
+}
+
+.list-icon {
+    font-size: 2.4rem;
+}
+
+.game-logo {
+    background-color: #212529;
+    padding: 1rem 3.6rem;
+}
+
+.price {
+    display: block;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 1.6rem;
+}
+
+.price span {
+    font-size: 7.4rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.purchase-btn {
+    background-color: #212529;
+}
+
+.btn {
+    display: flex;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: #868e96;
+    color: #fff;
+}
+
+.btn:link {
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1.6rem 3rem;
+    justify-content: center;
+    border-top: 2px solid #adb5bd;
+}
+
+.btn--white {
+    background-color: #fff;
+    color: #212529;
+    border-top: 2px solid #adb5bd;
+}
+
+.deluxe {
+    position: absolute;
+    transform: translate(18rem, -2.5rem);
+    display: block;
+    color: #343a40;
+    background-color: #fff;
+    letter-spacing: 1.5;
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    border: 1px solid #868e96;
+}
+
+/* -------------------- */
+/*  FREE TRIAL SECTION  */
+/* -------------------- */
+
+.cta-img-box {
+    height: 65rem;
+    background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0)
+        ),
+        url('../img/free-trial.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.trial-box {
+    grid-template-columns: 60% 40%;
+
+    box-shadow: 0 5px 20px #adb5bd;
+    background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.7)
+    );
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.trial-text-box {
+    padding: 4.8rem;
+}
+
+.trial-text-box p {
+    padding-bottom: 3.2rem;
+}
+
+.trial-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 0 6.4rem;
+}
+
+.trial-form label {
+    display: block;
+    padding-bottom: 1rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.trial-form input,
+select {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    background-color: #edf1f5;
+    border-radius: 5px;
+    border: none;
+}
+
+.download-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.download-btn button {
+    padding: 1.6rem 4rem;
+    color: #343a40;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+}
+
+.download-btn button:hover {
+    background-color: #868e96;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* --------------------- */
+/*  NEW RELEASE SECTION  */
+/* --------------------- */
+
+.new-release-section {
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.9)
+        ),
+        url(../img/yokohama-bg.jpg);
+    height: 75rem;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3rem;
+}
+
+.new-release-section img {
+    width: 70%;
+    box-shadow: 0 0 20px #868e96;
+}
+
+.pre-order-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.2rem;
+}
+
+.pre-order-btn button {
+    padding: 1.6rem 4rem;
+    font-size: 3rem;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+}
+
+.pre-order-btn button:hover {
+    background-color: #4d555c;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* --------------------- */
+/*  OTHER GAMES SECTION  */
+/* --------------------- */
+
+.other-games-section {
+    display: flex;
+    flex-direction: column;
+    padding: 3.6rem;
+    background-image: linear-gradient(
+            to left,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/pattern.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.other-games-section p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #adb5bd;
+
+    display: flex;
+    justify-content: center;
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.4rem;
+}
+
+.games a:link,
+a:visited {
+    width: 14%;
+    opacity: 60%;
+    transition: all 0.2s;
+    filter: saturate(0);
+}
+
+.games img {
+    width: 100%;
+}
+
+.games a:hover,
+a:active {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+/* Modal images */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 8vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    background: none;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 70rem;
+}
+
+.modal-close {
+    display: none;
+    height: 11rem;
+    width: 11rem;
+    color: #adb5bd;
+    z-index: 9999;
+    transform: translate(102rem, 1rem);
+}
+
+.modal-close:hover {
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* 100% img width on smaller screens */
+@media (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
