@@ -304,6 +304,7 @@ body {
 .footer-text p {
    font-size: 2rem;
    text-align: center;
+   padding-bottom: 2rem;
 }
 
 .footer-logo {
