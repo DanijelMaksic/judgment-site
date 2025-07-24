@@ -4,6 +4,6 @@ Judgment website is a slick redesign of the original website showcasing the SEGA
 
 <br />
 
-You can check out the [live demo](https://danijelmaksic.github.io/judgment-site/).
+You can check out the [live demo](https://danijelmaksic.github.io/judgment-site/){:target="\_blank"}.
 
 ![blog image](https://danijelmaksic.vercel.app/assets/judgment-entire-page-2vwbOmfM.webp)
