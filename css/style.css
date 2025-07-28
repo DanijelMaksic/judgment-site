@@ -241,6 +241,22 @@ a:active {
    width: 100%;
 }
 
+.character-container {
+   height: inherit;
+}
+
+.kaito-description {
+   place-self: center;
+}
+
+.matsugane-description {
+   place-self: center;
+}
+
+.hamura-description {
+   place-self: center;
+}
+
 .kaito-bg {
    height: 50rem;
    background-image: linear-gradient(
@@ -625,8 +641,8 @@ a:active {
    margin: auto;
    display: block;
    width: 80%;
-   max-width: 70rem;
-   margin-top: 6rem;
+   max-width: 90rem;
+   margin-top: 2rem;
 }
 
 .modal-close {

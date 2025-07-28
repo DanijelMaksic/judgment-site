@@ -1,8 +1,24 @@
 /* ----------------------------- */
-/*  BELOW 1344px (Small laptops)  */
+/*  Above 1920px (Desktop)  */
 /* ----------------------------- */
 
-@media (max-width: 84em) {
+@media (min-width: 119em) {
+   .modal-content {
+      margin-top: 8rem;
+      max-width: 110rem;
+   }
+
+   .kaito-bg {
+      height: 63rem;
+   }
+
+   .matsugane-bg {
+      height: 63rem;
+   }
+
+   .hamura-bg {
+      height: 63rem;
+   }
 }
 
 /* ----------------------------- */
@@ -522,6 +538,7 @@
 
    .kaito-description {
       padding: 0 4rem;
+      padding-bottom: 6rem;
    }
 
    .kaito-bg {
@@ -538,10 +555,12 @@
 
    .matsugane-description {
       padding: 0 4rem;
+      padding-top: 4rem;
    }
 
    .hamura-description {
       padding: 0 4rem;
+      padding-bottom: 6rem;
    }
 
    .trial-box {
